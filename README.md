@@ -144,3 +144,43 @@
     - realizamos o teste UNITÁRIO da aplicação.
     - utilizamos um espião nesse teste, para nos informar se a solicitação de outra biblioteca ou framework foi disparada(ativada) quando solicitando
       - jest.fn()
+
+## AULA 4
+
+  # Criando a parte Mobile (React Native)
+
+  - Criando o projeto
+    - Utilizamos o EXPO
+
+  - Estrutura de pastas e arquivos
+    - Utilizamos as pastas e arquivos todos componentizados
+      - Estrutura bem parecida com o formato de React Web (ReactJS)
+  
+  - Utilizamos a biblioteca Axios para integração com o Backend
+
+  - Dependencias utilizadas
+    - expo-google-fonts
+      - Utilizado para formatação da fonte
+    -expo-app-loading
+      - Utilizado para continuar no loading enquanto nao carrega a fonte
+    - expo-file-system
+      - Utilizado para guardar a imagem do screenshot
+    - phosphor-react-native
+      - Utilizado nas imagens do aplicativo
+    - react-native-gesture-handler
+      - Utilizado no ícone, para abertura do menu
+    - react-native-iphone-x-helper
+      - Utilizado para ajudar na direção do item, sendo o Iphone diferente do Android
+    - react-native-reanimated
+      - Utilizado para criar animação no botão do projeto
+    - react-native-svg
+      - Utilizado para o react-native entender o formato svg
+    - react-native-view-shot
+      - Utilizado para pré-visualizar o screenshot
+
+## AULA 5
+
+  - Finalização do Projeto e Deploy
+
+  - Utilização do Vite
+    - Utilizado para variáveis de 
