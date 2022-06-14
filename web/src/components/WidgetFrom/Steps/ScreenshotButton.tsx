@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Loading } from "../../Loading";
 
 interface ScreenshotButtonProps {
-  screenshot: string | null;
+  screenshot: String | null;
   onScreenshotTook: (screenshot: string | null) => void;
 }
 
